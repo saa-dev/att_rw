@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="attendance_import_page">
+            <t t-call="web.layout">
+                <div class="container">
+                    <form action="/attendance_import" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="attendance_file">Attendance Data File</label>
+                            <input type="file" class="form-control-file" id="attendance_file" name="attendance_file">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Import Attendance</button>
+                    </form>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>
