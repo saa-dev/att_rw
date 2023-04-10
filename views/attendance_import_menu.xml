@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record model="ir.ui.menu" id="menu_attendance_import_main">
+            <field name="name">Attendance Import</field>
+            <field name="action" ref="action_attendance_import"/>
+            <field name="parent_id" ref="hr.menu_hr_root"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+    </data>
+</odoo>

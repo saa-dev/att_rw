@@ -1,1 +1,1 @@
-from . import attendance_import_views
+from . import attendance_import_views, attendance_import_templates, attendance_import_menu
